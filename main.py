@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 import validators
 
 # Получаем токен из переменных окружения
-TOKEN = os.getenv("8009885031:AAE02oyEdad43HwONg67MniV4hPvSoe88V0")
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Функция для создания скриншота
 def take_screenshot(url):
